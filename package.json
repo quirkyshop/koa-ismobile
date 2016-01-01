@@ -1,0 +1,36 @@
+{
+  "name": "koa-ismobile",
+  "version": "1.0.0",
+  "description": "device detection for mobile or pc",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --harmony node_modules/nodeunit/bin/nodeunit test/device.js test/koa.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quirkyshop/koa-ismobile.git"
+  },
+  "keywords": [
+    "koa",
+    "user-agent",
+    "ua-parser"
+  ],
+  "author": "quirkyvar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quirkyshop/koa-ismobile/issues"
+  },
+  "homepage": "https://github.com/quirkyshop/koa-ismobile#readme",
+  "devDependencies": {
+    "nodeunit": "^0.9.1",
+    "supertest": "^1.1.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "nodeunit": "^0.9.1",
+    "koa": "^1.1.2",
+    "supertest": "^1.1.0"
+  }
+}
